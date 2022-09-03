@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+
+}
+.siva {
+  color:whitesmoke;
+  font:large;
+    top:50%;
+    background-color:rgb(89, 136, 232);
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+
+}
+.sivainput {
+  color: black;
+  font: large;
+  /* background-color: aqua; */
+  padding:15px;
+  border-radius: 10px;
+    min-height:1px;
+    min-width: 55px;
+}
+.sivaarray {
+  display: block;
+  margin-right: 6px;
+  background-color: #EEE;
+  writing-mode: horizontal-tb;
+  /* text-orientation: upright; */
+}
+.make-flex {
+  /* border: 10px ridge rgb(136, 168, 233); */
+    background-color:white;
+    padding: 50px 50px;
+    margin-left: 450px;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.child {
+  margin: 20px;
+  font-size: x-large;
+  padding: 10px;
+  border-radius: 8px;
+  font-style: bold;
+  color: rgb(0, 0, 0);
+  background-color:whitesmoke;
+}
+
+.editbutton {
+  color:whitesmoke;
+  font:small;
+    /* top:25%; */
+    background-color:rgb(136, 168, 233);
+    /* color: #fff; */
+    border:none; 
+    border-radius:5px; 
+    /* padding: 5px; */
+    /* min-height:10px; 
+    min-width: 10px; */
+    height: 40px;
+    width: 60px;
+    margin-right: 10px;
+
+}
+.deletebutton {
+  color:whitesmoke;
+  font:small;
+    /* top:25%; */
+    background-color:rgb(136, 168, 233);
+    /* color: #fff; */
+    border:none; 
+    border-radius:5px; 
+    height: 40px;
+    width: 60px;
+    /* padding:5px; */
+    /* min-height:20px; 
+    min-width: 30px; */
+}
+.gridpedadham{
+  /* display: grid;
+  grid-template-columns: auto 50px 60px;
+  gap: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
